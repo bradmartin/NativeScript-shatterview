@@ -32,10 +32,10 @@ var ShatterView = (function (_super) {
     //}
     ShatterView.prototype._createUI = function () {
         this._android = new com.yalantis.starwars.TilesFrameLayout(this._context);
-        if (!this._androidViewId) {
-            this._androidViewId = android.view.View.generateViewId();
-        }
-        this._android.setId(this._androidViewId);
+        //if (!this._androidViewId) {
+        //    this._androidViewId = android.view.View.generateViewId();
+        //}
+        //this._android.setId(this._androidViewId);
     };
     return ShatterView;
 })(common.ShatterView);

@@ -32,11 +32,11 @@ export class ShatterView extends common.ShatterView {
 
       this._android = new com.yalantis.starwars.TilesFrameLayout(this._context);
 
-      if (!this._androidViewId) {
+      //if (!this._androidViewId) {
 
-          this._androidViewId = android.view.View.generateViewId();
-      }
-      this._android.setId(this._androidViewId);
+      //    this._androidViewId = android.view.View.generateViewId();
+      //}
+      //this._android.setId(this._androidViewId);
 
   }
 }

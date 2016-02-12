@@ -1,0 +1,12 @@
+//default elements
+android {
+    productFlavors {
+        "nativescriptshatterview" {
+            dimension "nativescriptshatterview"
+        }
+    }
+}
+
+dependencies {
+	 compile "com.yalantis:starwarstiles:0.1.0"
+}
