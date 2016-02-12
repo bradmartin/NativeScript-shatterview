@@ -1,0 +1,85 @@
+--------- beginning of /dev/log/system
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+--------- beginning of /dev/log/main
+W/ResourceType( 1920): No package identifier when getting name for resource number 0x00000003
+V/JS      ( 1920): sv native: com.yalantis.starwars.TilesFrameLayout{52951330 V.E..... ........ 10,10-758,293 #3}
+D/dalvikvm( 1920): GC_FOR_ALLOC freed 1008K, 14% free 6829K/7904K, paused 3ms, total 5ms
+E/libEGL  ( 1920): call to OpenGL ES API with no current context (logged once per thread)
+W/dalvikvm( 1920): threadid=14: thread exiting with uncaught exception (group=0xa4bae648)
+F/libc    ( 1920): Fatal signal 11 (SIGSEGV) at 0x00000000 (code=1), thread 1938 (Thread-114)
+V/JS      ( 1920): RangeError: Maximum call stack size exceeded
+W/genymotion_audio(  129): out_write() limiting sleep time 26780 to 23219
+I/DEBUG   (  124): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  124): Build fingerprint: 'generic/vbox86p/vbox86p:4.3/JLS36G/eng.buildbot.20151117.142614:userdebug/test-keys'
+I/DEBUG   (  124): Revision: '0'
+I/DEBUG   (  124): pid: 1920, tid: 1938, name: Thread-114  >>> org.nativescript.shatterview <<<
+I/DEBUG   (  124): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000000
+I/DEBUG   (  124):     eax b944e108  ebx 97c0ccf8  ecx 00000072  edx 969ff8bc
+I/DEBUG   (  124):     esi 00000000  edi 969ff904
+I/DEBUG   (  124):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+I/DEBUG   (  124):     eip 974d9a5d  ebp 969ff938  esp 969ff890  flags 00210286
+E/Corkscrew(  124): unrecognized dwarf lower part encoding: 0x9d
+I/DEBUG   (  124): 
+I/DEBUG   (  124): backtrace:
+I/DEBUG   (  124):     #00  pc 00294a5d  /data/app-lib/org.nativescript.shatterview-1/libNativeScript.so (v8::Object::Set(v8::Local<v8::Value>, v8::Local<v8::Value>)+13)
+I/DEBUG   (  124):     #01  pc 0024f942  /data/app-lib/org.nativescript.shatterview-1/libNativeScript.so (tns::MetadataNode::CreateJSWrapper(v8::Isolate*)+210)
+I/DEBUG   (  124): 
+I/DEBUG   (  124): stack:
+I/DEBUG   (  124):          969ff850  00000000  
+I/DEBUG   (  124):          969ff854  00000000  
+I/DEBUG   (  124):          969ff858  00000000  
+I/DEBUG   (  124):          969ff85c  00000000  
+I/DEBUG   (  124):          969ff860  00000000  
+I/DEBUG   (  124):          969ff864  00000000  
+I/DEBUG   (  124):          969ff868  00000000  
+I/DEBUG   (  124):          969ff86c  00000000  
+I/DEBUG   (  124):          969ff870  00000000  
+I/DEBUG   (  124):          969ff874  00000000  
+I/DEBUG   (  124):          969ff878  00000000  
+I/DEBUG   (  124):          969ff87c  00000000  
+I/DEBUG   (  124):          969ff880  00000000  
+I/DEBUG   (  124):          969ff884  00000000  
+I/DEBUG   (  124):          969ff888  00000000  
+I/DEBUG   (  124):          969ff88c  46505845  
+I/DEBUG   (  124):     #00  969ff890  969ff8ac  [stack:1938]
+I/DEBUG   (  124):          969ff894  b9426168  [heap]
+I/DEBUG   (  124):          969ff898  969ff904  [stack:1938]
+I/DEBUG   (  124):          969ff89c  00000000  
+I/DEBUG   (  124):          969ff8a0  0000000b  
+I/DEBUG   (  124):          969ff8a4  979fde5e  /data/app-lib/org.nativescript.shatterview-1/libNativeScript.so
+I/DEBUG   (  124):          969ff8a8  0000000b  
+I/DEBUG   (  124):          969ff8ac  b944e108  [heap]
+I/DEBUG   (  124):          969ff8b0  b95e6bc8  [heap]
+I/DEBUG   (  124):          969ff8b4  969ff93c  [stack:1938]
+I/DEBUG   (  124):          969ff8b8  974a397b  /data/app-lib/org.nativescript.shatterview-1/libNativeScript.so (tns::ConvertToV8String(std::string const&)+11)
+I/DEBUG   (  124):          969ff8bc  97c0ccf8  /data/app-lib/org.nativescript.shatterview-1/libNativeScript.so
+I/DEBUG   (  124):          969ff8c0  969ffa14  [stack:1938]
+I/DEBUG   (  124):          969ff8c4  969ff904  [stack:1938]
+I/DEBUG   (  124):          969ff8c8  969ffa14  [stack:1938]
+I/DEBUG   (  124):          969ff8cc  97494943  /data/app-lib/org.nativescript.shatterview-1/libNativeScript.so (tns::MetadataNode::CreateJSWrapper(v8::Isolate*)+211)
+I/ActivityManager(  681): Process org.nativescript.shatterview (pid 1920) has died.
+I/qtaguid (  681): Failed write_ctrl(s 0 10057) res=-1 errno=1
+W/NetworkManagementSocketTagger(  681): setKernelCountSet(10057, 0) failed with errno -1
+W/ActivityManager(  681): Force removing ActivityRecord{528db87c u0 org.nativescript.shatterview/com.tns.NativeScriptActivity}: app died, no saved state
+I/qtaguid (  681): Failed write_ctrl(s 1 10023) res=-1 errno=1
+W/NetworkManagementSocketTagger(  681): setKernelCountSet(10023, 1) failed with errno -1
+I/WindowState(  681): WIN DEATH: Window{5287594c u0 org.nativescript.shatterview/com.tns.NativeScriptActivity}
+D/Zygote  (  667): Process 1920 terminated by signal (11)
+D/        (   57): Socket deconnection
+W/EGL_genymotion(  893): eglSurfaceAttrib not implemented
+D/MobileDataStateTracker(  681): default: setPolicyDataEnable(enabled=true)
+D/MobileDataStateTracker(  681): default: setPolicyDataEnable(enabled=true)
+W/InputMethodManagerService(  681): Got RemoteException sending setActive(false) notification to pid 1920 uid 10057
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection
+D/        (   57): Socket deconnection

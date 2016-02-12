@@ -1,0 +1,30 @@
+{
+  "name": "nativescript-shatterview",
+  "version": "1.0.1",
+  "description": "NativeScript view layout that animates using Yalantis' StarWars (glass) shatter animation.",
+  "main": "shatterview.js",
+  "nativescript": {
+    "platforms": {
+      "android": "1.5.0",
+      "ios": "1.5.2"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradmartin/nativescript-shatterview"
+  },
+  "keywords": [
+    "NativeScript",
+    "native",
+    "script",
+    "Card",
+    "CardView",
+    "Material Design",
+    "bradmartin",
+    "Thorum"
+  ],
+  "author": "Brad Martin <bradwaynemartin@gmail.com> (https://github.com/bradmartin)",
+  "license": "Apache-2.0",
+  "bugs": "https://github.com/bradmartin/nativescript-shatterview/issues",
+  "homepage": "https://github.com/bradmartin/nativescript-shatterview"
+}
