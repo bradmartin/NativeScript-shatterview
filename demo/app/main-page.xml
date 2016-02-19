@@ -1,17 +1,15 @@
 <page xmlns="http://schemas.nativescript.org/tns.xsd"
       xmlns:sw="nativescript-shatterview"
       loaded="pageLoaded">
-
-    <!--<page.actionBar>
-        <action-bar title="ShatterView" backgroundColor="#009688" color="#f1f1f1" android.icon="res://ic_test"/>
-    </page.actionBar>-->
-
+    
     <scroll-view>
-        
         <stack-layout>
 
-            <sw:ShatterView id="shatterView" margin="10"  tap="goAway">
-                    <image src="~/images/bvs.jpg" stretch="aspectFill" colSpan="3" row="0" />
+            <!--<Placeholder creatingView="createImage" />-->
+
+            <sw:ShatterView id="shatterView" margin="10" tap="goAway">
+                <!--<Placeholder creatingView="createImage" />-->
+                <Image src="~/images/bvs.jpg" stretch="aspectFit" height="300" />
             </sw:ShatterView>
             
         
